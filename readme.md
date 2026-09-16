@@ -1,4 +1,4 @@
-# E-Commerce Docker Compose
+# E-Commerce Docker Compose - PrestaShop Docker Compose
 
 ## Components:
 - MySql Instance
