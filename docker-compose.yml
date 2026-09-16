@@ -13,12 +13,12 @@ services:
       - demo82dbdata:/var/lib/mysql
   prestashop:
     container_name: demo82
-    image: prestashop/prestashop:8.2.0
+    image: prestashop/prestashop:8.2.8
     restart: unless-stopped
     depends_on:
       - mysql
     ports:
-      - 9096:80
+      - 9090:80
     environment:
       DB_SERVER: demo82-mysql
       DB_NAME: prestashop_demo82
